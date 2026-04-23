@@ -1,243 +1,525 @@
 {
+  "meta": {
+    "version": 2,
+    "dimensions": ["arousal", "valence", "interoception", "dmn", "social", "motor"],
+    "question_count": 7
+  },
+  "papers": {
+    "kaptchuk2010": { "authors": "Kaptchuk TJ, Friedlander E, Kelley JM, et al.", "year": 2010, "title": "Placebos without deception: a randomized controlled trial in irritable bowel syndrome", "journal": "PLoS ONE", "doi": "10.1371/journal.pone.0015591" },
+    "friston2010": { "authors": "Friston K", "year": 2010, "title": "The free-energy principle: a unified brain theory?", "journal": "Nature Reviews Neuroscience", "doi": "10.1038/nrn2787" },
+    "crum2013": { "authors": "Crum AJ, Salovey P, Achor S", "year": 2013, "title": "Rethinking stress: the role of mindsets in determining the stress response", "journal": "Journal of Personality and Social Psychology", "doi": "10.1037/a0031201" },
+    "jamieson2012": { "authors": "Jamieson JP, Nock MK, Mendes WB", "year": 2012, "title": "Mind over matter: reappraising arousal improves cardiovascular and cognitive responses to stress", "journal": "Journal of Experimental Psychology: General", "doi": "10.1037/a0025719" },
+    "lieberman2007": { "authors": "Lieberman MD, Eisenberger NI, Crockett MJ, et al.", "year": 2007, "title": "Putting feelings into words: affect labeling disrupts amygdala activity in response to affective stimuli", "journal": "Psychological Science", "doi": "10.1111/j.1467-9280.2007.01916.x" },
+    "craig2009": { "authors": "Craig AD", "year": 2009, "title": "How do you feel—now? The anterior insula and human awareness", "journal": "Nature Reviews Neuroscience", "doi": "10.1038/nrn2555" },
+    "porges2007": { "authors": "Porges SW", "year": 2007, "title": "The polyvagal perspective", "journal": "Biological Psychology", "doi": "10.1016/j.biopsycho.2006.06.009" },
+    "thayer2000": { "authors": "Thayer JF, Lane RD", "year": 2000, "title": "A model of neurovisceral integration in emotion regulation and dysregulation", "journal": "Journal of Affective Disorders", "doi": "10.1016/S0165-0327(00)00338-4" },
+    "tang2015": { "authors": "Tang YY, Hölzel BK, Posner MI", "year": 2015, "title": "The neuroscience of mindfulness meditation", "journal": "Nature Reviews Neuroscience", "doi": "10.1038/nrn3916" },
+    "xie2013": { "authors": "Xie L, Kang H, Xu Q, et al.", "year": 2013, "title": "Sleep drives metabolite clearance from the adult brain", "journal": "Science", "doi": "10.1126/science.1241224" },
+    "rasch2013": { "authors": "Rasch B, Born J", "year": 2013, "title": "About sleep's role in memory", "journal": "Physiological Reviews", "doi": "10.1152/physrev.00032.2012" },
+    "oakley2013": { "authors": "Oakley DA, Halligan PW", "year": 2013, "title": "Hypnotic suggestion: opportunities for cognitive neuroscience", "journal": "Nature Reviews Neuroscience", "doi": "10.1038/nrn3538" },
+    "langer1976": { "authors": "Langer EJ, Rodin J", "year": 1976, "title": "The effects of choice and enhanced personal responsibility for the aged: a field experiment in an institutional setting", "journal": "Journal of Personality and Social Psychology", "doi": "10.1037/0022-3514.34.2.191" },
+    "schwarz1983": { "authors": "Schwarz N, Clore GL", "year": 1983, "title": "Mood, misattribution, and judgments of well-being: informative and directive functions of affective states", "journal": "Journal of Personality and Social Psychology", "doi": "10.1037/0022-3514.45.3.513" },
+    "lehrer2014": { "authors": "Lehrer PM, Gevirtz R", "year": 2014, "title": "Heart rate variability biofeedback: how and why does it work?", "journal": "Frontiers in Psychology", "doi": "10.3389/fpsyg.2014.00756" },
+    "kox2014": { "authors": "Kox M, van Eijk LT, Zwaag J, et al.", "year": 2014, "title": "Voluntary activation of the sympathetic nervous system and attenuation of the innate immune response in humans", "journal": "PNAS", "doi": "10.1073/pnas.1322174111" },
+    "bandura1977": { "authors": "Bandura A", "year": 1977, "title": "Self-efficacy: toward a unifying theory of behavioral change", "journal": "Psychological Review", "doi": "10.1037/0033-295X.84.2.191" },
+    "benedetti2014": { "authors": "Benedetti F", "year": 2014, "title": "Placebo effects: from the neurobiological paradigm to translational implications", "journal": "Neuron", "doi": "10.1016/j.neuron.2014.02.023" },
+    "clark2013": { "authors": "Clark A", "year": 2013, "title": "Whatever next? Predictive brains, situated agents, and the future of cognitive science", "journal": "Behavioral and Brain Sciences", "doi": "10.1017/S0140525X12000477" },
+    "kirsch1985": { "authors": "Kirsch I", "year": 1985, "title": "Response expectancy as a determinant of experience and behavior", "journal": "American Psychologist", "doi": "10.1037/0003-066X.40.11.1189" },
+    "mcgaugh2000": { "authors": "McGaugh JL", "year": 2000, "title": "Memory—a century of consolidation", "journal": "Science", "doi": "10.1126/science.287.5451.248" },
+    "arnsten2015": { "authors": "Arnsten AFT", "year": 2015, "title": "Stress weakens prefrontal networks: molecular insults to higher cognition", "journal": "Nature Neuroscience", "doi": "10.1038/nn.4087" },
+    "mather2011": { "authors": "Mather M, Sutherland MR", "year": 2011, "title": "Arousal-biased competition in perception and memory", "journal": "Perspectives on Psychological Science", "doi": "10.1177/1745691611400234" },
+    "brefczynski2007": { "authors": "Brefczynski-Lewis JA, Lutz A, Schaefer HS, Levinson DB, Davidson RJ", "year": 2007, "title": "Neural correlates of attentional expertise in long-term meditation practitioners", "journal": "PNAS", "doi": "10.1073/pnas.0606552104" },
+    "beilock2001": { "authors": "Beilock SL, Carr TH", "year": 2001, "title": "On the fragility of skilled performance: what governs choking under pressure?", "journal": "Journal of Experimental Psychology: General", "doi": "10.1037/0096-3445.130.4.701" },
+    "csikszentmihalyi1990": { "authors": "Csikszentmihalyi M", "year": 1990, "title": "Flow: The Psychology of Optimal Experience", "journal": "Harper & Row", "doi": "" }
+  },
   "modes": {
     "morning": {
       "label": "朝",
-      "subtitle": "起きた直後",
+      "subtitle": "起床直後の状態同定",
       "questions": [
-        ["今日のお腹、軽いかも", "なんか重いかも"],
-        ["起きた感じ、いい寄り", "微妙寄り"],
-        ["体調、8割いける", "6割でいく"],
-        ["喉、整ってる", "ちょい怪しい"],
-        ["鼻、通ってる", "ちょい詰まり"],
-        ["寝起きの頭、回ってる", "ぽやってる"],
-        ["今日、3時間溶けるやつ", "30分でいいやつ"],
-        ["今日のメンタル、ジャンプ系", "ぼーっと系"],
-        ["食欲、めっちゃある", "そんなでもない"],
-        ["朝のコーヒー、超効きそう", "普通"],
-        ["肩、軽い", "なんか張ってる"],
-        ["目、はっきり開いてる", "ちょいぼやけてる"],
-        ["体温、ちょうどいい", "ちょい寒い"],
-        ["今日の予感、いい寄り", "普通"],
-        ["なんかやる気、湧いてる", "ぼちぼち"]
+        { "prompt": "起きてから今までの時間の感じ方は、どちらに近い？", "choices": [
+          { "label": "長く感じる", "tags": { "arousal": -1, "dmn": 1 } },
+          { "label": "短く感じる", "tags": { "arousal": 1, "motor": 1 } }
+        ]},
+        { "prompt": "頭の中の「言葉」の量は、どちらに近い？", "choices": [
+          { "label": "多く走っている", "tags": { "dmn": 1, "arousal": 1 } },
+          { "label": "静かに近い", "tags": { "dmn": -1, "valence": 1 } }
+        ]},
+        { "prompt": "体の「重心」のある場所は、どちらに近い？", "choices": [
+          { "label": "はっきり感じる", "tags": { "interoception": 1, "motor": 1 } },
+          { "label": "輪郭がぼんやり", "tags": { "interoception": -1 } }
+        ]},
+        { "prompt": "起き上がる・動き出す瞬間の抵抗感は、どちらに近い？", "choices": [
+          { "label": "軽い・低い", "tags": { "motor": 1, "arousal": 1 } },
+          { "label": "重い・高い", "tags": { "motor": -1, "arousal": -1 } }
+        ]},
+        { "prompt": "今の光の感じ方は、どちらに近い？", "choices": [
+          { "label": "鋭い・はっきり", "tags": { "arousal": 1, "interoception": 1 } },
+          { "label": "柔らかい・眩しくない", "tags": { "arousal": -1, "valence": 1 } }
+        ]},
+        { "prompt": "呼吸の「入っている場所」は、どちらに近い？", "choices": [
+          { "label": "深い場所・お腹", "tags": { "arousal": -1, "interoception": 1, "valence": 1 } },
+          { "label": "浅い場所・胸", "tags": { "arousal": 1, "interoception": -1 } }
+        ]},
+        { "prompt": "今、人と話したい度合いは、どちらに近い？", "choices": [
+          { "label": "話したい方", "tags": { "social": 1, "valence": 1 } },
+          { "label": "一人でいたい方", "tags": { "social": -1, "dmn": 1 } }
+        ]},
+        { "prompt": "食欲の「輪郭」は、どちらに近い？", "choices": [
+          { "label": "はっきり・何を食べたいかわかる", "tags": { "interoception": 1, "arousal": 1 } },
+          { "label": "ぼんやり・特にない", "tags": { "interoception": -1 } }
+        ]}
       ],
       "buffs": [
-        "だいぶ体調いいかも。8割で十分、っていうか全然いける。完璧じゃなくていいやつ",
-        "めっちゃよく寝た感じする。お腹も軽い。今日はノれるやつだわ",
-        "なんか整ってる。3時間溶けるやつになるかも。ま、無理はしない",
-        "全然いい。ちょうどいい塩梅。リカバリー成功してるっぽい",
-        "もう寝起き超良いじゃん。今日の弓、軽くいきそう",
-        "今日は8割の日。ちょうどいい。完璧目指さないやつでいく",
-        "お腹軽い、頭回ってる。これは溶けるパターン",
-        "全然いける。なんか今日いい予感する。ま、自然に出るやつ",
-        "体調、ちょうどいい塩梅で来てる。今日もリカバリー成功",
-        "めっちゃいい起き方できた。今日はジャンプ系の日かも",
-        "だいぶ整ってる。今日は領域展開いけそうな日",
-        "もう全然いい。8割で動いて、夜ちゃんと寝るだけ",
-        "今日のメンタル、超フラット。何か来ても全然対応できるやつ",
-        "お腹軽くてラッキー。集中も来てる感じする",
-        "ちょうどいい眠気の抜け方。今日はいい一日になるやつ",
-        "全然元気。なんか自然に動けそう",
-        "だいぶいい感じ。今日は8割でちょうどいい",
-        "もう超リカバリーできてる。今日は何やっても大丈夫なやつ",
-        "頭ぽやってないかも。むしろ冴えてる",
-        "今日のコーヒー、超効くやつ。ノれる日確定",
-        "全然いける。今日のテンポ、自分のペースでOK",
-        "めっちゃいい朝。これはサイヤ人モードで突っ走れる日",
-        "なんか整ってる。ま、行ける気しかしないわ",
-        "お腹も鼻も全然OK。今日は全部勝手に動くやつ",
-        "もう完璧でなくていい。8割で十分、それで超いい一日になる"
+        {
+          "id": "morning_sympathetic_sharpening",
+          "mode_name_en": "Sympathetic Sharpening Mode",
+          "mode_name_ja": "交感神経鋭敏モード",
+          "observation": "高覚醒、知覚ゲーティング低下、運動閾値低。交感神経系が昼のピークに向けて速やかに立ち上がっている。",
+          "misreading": "「焦っている」「落ち着きがない」「気が逸っている」と自己評価されがちだが、",
+          "reality": "これは覚醒時のノルアドレナリン系が正常に稼働している証拠で、短時間・高密度のタスクに対して処理性能がピーク域にある状態。Mather & Sutherland (2011) が提唱したarousal-biased competitionの枠組みでは、この状態は優先度の高い情報への知覚・記憶資源の傾斜が最大化されており、一本のタスクに絞れば通常より鮮明な痕跡を残せる。ただしArnsten (2015) が示すとおり覚醒が閾値を超えると前頭前野の制御が弱まるため、タスクの幅を絞ることが条件になる。",
+          "application": "起床後90分以内に、今日いちばん集中力を要する単一タスクを配置する。複数タスクの並行・対人調整・拡散的アイデア出しは昼以降に回す。メールやSlack等の「入力」を先に開かない。",
+          "paper_ids": ["mather2011", "arnsten2015"],
+          "target_vector": { "arousal": 2, "valence": 0, "interoception": 1, "dmn": 0, "social": 0, "motor": 1 }
+        },
+        {
+          "id": "morning_offline_consolidation",
+          "mode_name_en": "Offline Consolidation Mode",
+          "mode_name_ja": "記憶固定化モード",
+          "observation": "低覚醒、運動閾値上昇、内受容がやや鈍化、デフォルトモードネットワーク優位。",
+          "misreading": "「怠い」「やる気が出ない」「睡眠が浅かった」と解釈されがちだが、",
+          "reality": "脳はこの状態で、昨日までの情報の統合・整理に資源を振っている。Xie et al. (2013, Science) は、同系統のモードでグリンパティック系の代謝産物クリアランスが覚醒タスク時の約1.6倍に達することを示した。Rasch & Born (2013) とMcGaugh (2000) は、海馬と新皮質の間のオフライン転送を通じた記憶固定化がこのフェーズで完了することを整理している。つまり、外向き処理の性能は下がっているが、内向き統合の性能はむしろピーク域にある。",
+          "application": "新しい情報の投入・初見の楽譜・新規の対人調整は午後に回す。代わりに、昨日までに蓄積した素材の再整理（未整理メモの分類、録音の聴き返し、既存課題の再構造化）に当てる。この時間帯は、学習直後の記憶を着地させる窓として使う。",
+          "paper_ids": ["xie2013", "rasch2013", "mcgaugh2000"],
+          "target_vector": { "arousal": -2, "valence": 0, "interoception": -1, "dmn": 1, "social": -1, "motor": -2 }
+        },
+        {
+          "id": "morning_vagal_reset",
+          "mode_name_en": "Vagal Reset Mode",
+          "mode_name_ja": "迷走神経優位リセットモード",
+          "observation": "低〜中覚醒、深い呼吸、感情価は中立〜正、副交感神経系優位。",
+          "misreading": "「エネルギーが低い」「テンションが上がらない」と評価されがちだが、",
+          "reality": "この状態は心拍変動（HRV）の高周波成分が高く、副交感神経系が優位に働いている。Thayer & Lane (2000) のneurovisceral integration modelでは、高HRV状態は前頭前野と自律神経系の機能的カップリングが良好な指標で、情動制御・柔軟な注意配分・回復機能が最大化される。Porges (2007) のpolyvagal理論では、この状態は社会的関与システムと安全感のベースラインを形成する。",
+          "application": "朝ルーティンを急がずに通す（呼吸トレーニング、冷水シャワー、朝ごはん、コーヒー）。ここで強い刺激を避けることで、日中の交感神経応答のレンジが広がり、必要な場面で覚醒を上げやすくなる。共鳴呼吸（4.5bpm）を5分だけ挟むとこの状態を延長できる。",
+          "paper_ids": ["porges2007", "thayer2000", "lehrer2014"],
+          "target_vector": { "arousal": -1, "valence": 1, "interoception": 1, "dmn": 0, "social": 1, "motor": 0 }
+        },
+        {
+          "id": "morning_interoceptive_surge",
+          "mode_name_en": "Interoceptive Surge Mode",
+          "mode_name_ja": "内受容鋭敏モード",
+          "observation": "体の重心・呼吸・食欲の輪郭が鮮明。前島皮質を中心とする内受容処理が高感度。",
+          "misreading": "「体調の変化に敏感すぎる」と解釈されがちだが、",
+          "reality": "Craig (2009) が整理したとおり、前島皮質の内受容シグナルの鮮明度は、身体状態のメタ認知精度と直結しており、情動の粒度・意思決定の質・身体技能の微細調整に決定的に効く。この状態では、身体からのフィードバックを使った技能調整の歩留まりが最も高い。",
+          "application": "バイオリンなら重心・弓圧・左手の脱力の微調整、武術なら脱力・軸・呼吸との同期に、時間を多めに取る。逆に頭で処理する抽象タスク（メール返信、計画立案）は今は効率が悪い。",
+          "paper_ids": ["craig2009", "tang2015"],
+          "target_vector": { "arousal": 0, "valence": 1, "interoception": 2, "dmn": 0, "social": 0, "motor": 1 }
+        },
+        {
+          "id": "morning_dmn_ideation",
+          "mode_name_en": "DMN-Dominant Ideation Mode",
+          "mode_name_ja": "拡散思考優位モード",
+          "observation": "頭の中の言語量が多く、時間知覚は伸長方向。デフォルトモードネットワーク優位。",
+          "misreading": "「集中できていない」「頭が散らかっている」と解釈されがちだが、",
+          "reality": "DMN優位の状態は、遠い概念同士の連想・自伝的記憶への参照・未来の投射が活性化するフェーズで、創造的なアイデア生成・自己省察・問題の再定義に向く。Friston (2010) の自由エネルギー原理では、このモードは内部モデルの生成的サンプリングが走っている状態と記述される。",
+          "application": "ToDoリストを進めるのではなく、最近つっかえている問題を一つ選び、紙に開き、連想のまま書き散らす。楽器なら新曲の譜読みや即興、指導なら新しい伝え方の試作に向く。10分で区切ると浪費にならない。",
+          "paper_ids": ["friston2010", "clark2013"],
+          "target_vector": { "arousal": 0, "valence": 0, "interoception": 0, "dmn": 2, "social": -1, "motor": -1 }
+        },
+        {
+          "id": "morning_motor_ready",
+          "mode_name_en": "Low-Threshold Motor Mode",
+          "mode_name_ja": "運動閾値低モード",
+          "observation": "動き出しの抵抗感が低く、運動野の準備電位が立ち上がりやすい状態。",
+          "misreading": "「普通」と見逃されがちだが、",
+          "reality": "運動開始の意志コストが小さい朝は、習慣化が最もしやすい瞬間。Bandura (1977) の自己効力感理論では、実行→成功の短い反復が効力感を累積させる最も確実な経路とされる。無抵抗で動けた一回は、後日「自分はこれを習慣として持っている」という内部モデルに組み込まれ、翌日以降の閾値をさらに下げる。",
+          "application": "先延ばしになっていた小さな物理タスク（洗濯機を回す、コーヒー豆を挽く、5分の呼吸）をまず1個、意思決定なしで着手する。大きなタスクより小さい動作を先に置くことで、今日一日の運動閾値が全体的に下がる。",
+          "paper_ids": ["bandura1977"],
+          "target_vector": { "arousal": 1, "valence": 1, "interoception": 0, "dmn": -1, "social": 0, "motor": 2 }
+        }
       ]
     },
     "practice": {
       "label": "練習前",
-      "subtitle": "バイオリン個人練の前",
+      "subtitle": "個人練に入る直前の状態同定",
       "questions": [
-        ["今日の弓、軽くいけそう", "ちょい重い"],
-        ["指、よく動きそう", "ぽってり気味"],
-        ["集中、30分いける", "10分から始める"],
-        ["今日鳴るやつ", "鳴らない日"],
-        ["録音する気分", "しないやつ"],
-        ["スケール、丁寧にやる", "ざっくり流す"],
-        ["苦手箇所、突っ込みたい", "流したい"],
-        ["音程、自然に合いそう", "意識して合わせる"],
-        ["左手、柔らかそう", "硬めかも"],
-        ["右手、預けられそう", "力入りそう"],
-        ["新曲、開く気分", "既存曲だけ"],
-        ["メトロノーム、使う気分", "使わない"],
-        ["今日の練習、整理系", "発散系"],
-        ["録画、する", "しない"],
-        ["練習後、何か食べたい", "そのまま動く"]
+        { "prompt": "左手の指の「温度感」は、どちらに近い？", "choices": [
+          { "label": "暖かい・柔らかい", "tags": { "interoception": 1, "motor": 1 } },
+          { "label": "冷たい・硬い", "tags": { "interoception": -1, "motor": -1 } }
+        ]},
+        { "prompt": "弓を持つ前の右腕の重さは、どちらに近い？", "choices": [
+          { "label": "軽い・預けられる", "tags": { "motor": 1, "valence": 1 } },
+          { "label": "力が入りそう", "tags": { "motor": -1, "arousal": 1 } }
+        ]},
+        { "prompt": "今日の練習で向かいたいのは、どちらに近い？", "choices": [
+          { "label": "整理・既習曲のメンテ", "tags": { "dmn": 1, "arousal": -1 } },
+          { "label": "発散・新しい試み", "tags": { "dmn": -1, "arousal": 1 } }
+        ]},
+        { "prompt": "音程について、今日は、どちらに近い？", "choices": [
+          { "label": "自然に合う気がする", "tags": { "interoception": 1, "valence": 1 } },
+          { "label": "意識して合わせに行く", "tags": { "interoception": -1, "arousal": 1 } }
+        ]},
+        { "prompt": "苦手箇所への感覚は、どちらに近い？", "choices": [
+          { "label": "突っ込みたい", "tags": { "motor": 1, "valence": 1 } },
+          { "label": "避けたい・流したい", "tags": { "motor": -1, "valence": -1 } }
+        ]},
+        { "prompt": "メトロノームは、どちらに近い？", "choices": [
+          { "label": "今日は外したい", "tags": { "interoception": 1, "dmn": 1 } },
+          { "label": "使いたい", "tags": { "interoception": -1, "motor": 1 } }
+        ]},
+        { "prompt": "録音・録画をする気分は、どちらに近い？", "choices": [
+          { "label": "する・残したい", "tags": { "valence": 1, "motor": 1 } },
+          { "label": "しない・今日は流す", "tags": { "valence": 0, "motor": -1 } }
+        ]},
+        { "prompt": "時間感覚は、どちらに近い？", "choices": [
+          { "label": "30分でも溶けそう", "tags": { "arousal": 1, "dmn": -1 } },
+          { "label": "短めで切りたい", "tags": { "arousal": -1, "motor": -1 } }
+        ]}
       ],
       "buffs": [
-        "今日鳴る感じする。弓も軽い。ま、自然に出るやつ",
-        "指、勝手に動くタイプの日。録音しても全然いいやつ",
-        "30分溶けるかも。っていうか溶けてOK",
-        "今日の音、自然に整うやつ。意識しなくていい",
-        "左手、柔らかい。右手、預けられる。これは鳴る",
-        "全然弾ける。練習というより遊びみたいな日",
-        "集中、勝手に来る。これは溶けるやつ",
-        "弓、軽い。今日は録音もアリな日",
-        "もう手が勝手にやる。考えなくていい",
-        "今日の練習、整理モード。新曲も自然に開けるやつ",
-        "音程、勝手に合うやつ。そういう日",
-        "だいぶいい感じで弾ける。ま、楽しんでOK",
-        "30分でも全然OK。質が来てる",
-        "録音聴いても全然いいやつになるかも",
-        "今日の弓、軽くて素直。練習日和",
-        "メトロノームなしでもいける。リズム来てる",
-        "苦手箇所、今日突っ込んでみてもいいかも",
-        "指の温まり、いい感じ。すぐ集中入れる",
-        "もう自然に出る。難しいこと考えない日",
-        "今日は領域展開できる練習。1時間溶けても全然OK",
-        "左手リラックス、右手も預けられる。完璧でなくて全然いい",
-        "ま、いい音出るやつ。勝手に出る",
-        "今日は鳴る日。録画してもいい",
-        "練習、超ノれる。ジャンプ系の集中",
-        "全然いい。30分やったら超満足するやつ"
+        {
+          "id": "practice_flow_entry",
+          "mode_name_en": "Flow-Entry Window",
+          "mode_name_ja": "フロー入り口モード",
+          "observation": "中〜高覚醒、運動閾値低、時間知覚の伸長準備、内受容鮮明。",
+          "misreading": "「いつも通り」と片付けられがちだが、",
+          "reality": "Csikszentmihalyi (1990) のフロー状態は、挑戦と技能のバランスが取れ、かつ目標と即時フィードバックが明確なときに生じる。あなたの今の内受容鮮明・運動閾値低・時間知覚の可塑性は、フロー入り口の神経生理学的前駆条件と一致する。Brefczynski-Lewis et al. (2007) は、長期訓練者がこのモードに入るときの注意関連ネットワーク（背側注意・前島）のカップリング上昇を報告している。",
+          "application": "時間を区切らず、単一曲・単一課題に絞り、冒頭10分はフィードバック密度を最大化するタスクを置く（スローテンポ通し、録音即再生、苦手一小節の反復）。中断を避けるため通知を切る。フロー入り後は45〜90分の一続きで動けると歩留まりが最大化する。",
+          "paper_ids": ["csikszentmihalyi1990", "brefczynski2007"],
+          "target_vector": { "arousal": 1, "valence": 1, "interoception": 1, "dmn": -1, "social": 0, "motor": 1 }
+        },
+        {
+          "id": "practice_interoceptive_tune",
+          "mode_name_en": "Interoceptive Tuning Mode",
+          "mode_name_ja": "内受容チューニングモード",
+          "observation": "指の温度感・腕の重さ・音程の「自然さ」が鮮明に意識できる状態。前島皮質の内受容処理が高感度。",
+          "misreading": "「神経質」「考えすぎ」と扱われがちだが、",
+          "reality": "Craig (2009) は、熟練したパフォーマーが非熟練者と最も差がつくのは前島皮質ベースの身体状態のメタ認知精度であると論じた。Tang et al. (2015) は瞑想熟練者で同領域の構造的・機能的変化を報告している。今日のあなたの内受容チャネルの開き方は、身体技能の微細調整に使える情報量が最大化されている状態。",
+          "application": "重心・弓圧・左手の脱力・弓返しの瞬間の皮膚感覚、これらを別々の練習ブロックに分けて、各ブロックで1パラメータだけに意識を張る。抽象的な表現や解釈は明日に回し、今日は「身体の入り口」に全振り。スケール・セビシックを長めに取る。",
+          "paper_ids": ["craig2009", "tang2015"],
+          "target_vector": { "arousal": 0, "valence": 1, "interoception": 2, "dmn": 0, "social": 0, "motor": 1 }
+        },
+        {
+          "id": "practice_consolidation",
+          "mode_name_en": "Consolidation Practice Mode",
+          "mode_name_ja": "既習統合モード",
+          "observation": "低〜中覚醒、DMNやや優位、新規投入より既存素材の再編に向かう志向。",
+          "misreading": "「今日はやる気が出ない」と解釈されがちだが、",
+          "reality": "Rasch & Born (2013) とMcGaugh (2000) は、記憶の固定化が学習直後の静穏な再活性化で進むことを整理した。いま新規を詰め込むより、すでに手に入っている素材を繰り返し薄く再活性化するほうが、技能の長期定着には効果が高い。スローテンポでの通し、暗譜の確認、昔弾いた曲の再訪が、このフェーズで最も歩留まりの良い投資になる。",
+          "application": "新曲の譜読み・難所の初投入は明日に回す。代わりに、最近上がり切らない既習曲を、原則スローで最初から最後まで通す。録音はする。メトロノームは中間テンポで固定。45分を上限に切り、追加したくなっても止める。",
+          "paper_ids": ["rasch2013", "mcgaugh2000"],
+          "target_vector": { "arousal": -1, "valence": 0, "interoception": 0, "dmn": 1, "social": -1, "motor": 0 }
+        },
+        {
+          "id": "practice_reappraisal",
+          "mode_name_en": "Reappraisal-Ready Mode",
+          "mode_name_ja": "再評価構えモード",
+          "observation": "感情価がわずかにネガ寄り、または覚醒が高く、身体反応が立ち上がっている状態。",
+          "misreading": "「今日は調子が悪いからやめる」判断に流れがちだが、",
+          "reality": "Jamieson et al. (2012) とCrum et al. (2013) は、ストレス反応を『体が挑戦に備えている』と再解釈する介入が、実際の心血管反応と認知課題成績を改善することをランダム化試験で示した。Lieberman et al. (2007) は、感情を言語化するだけで扁桃体活動が下がり前頭前野制御が立ち上がることを示している。つまり、いまの身体のざわつきは、言語化と再評価を通すことで練習の燃料に変換できる。",
+          "application": "練習に入る前に、紙かメモに「今、体のどこに何を感じているか」を一行で書く（例: 右腕が重い／胸が浅く呼吸している）。その下に『これは〜の準備』と書き換える（例: 集中が立ち上がっている）。この2行を書くだけで扁桃体優位→前頭前野優位に切り替わる。それから楽器を開ける。",
+          "paper_ids": ["jamieson2012", "crum2013", "lieberman2007"],
+          "target_vector": { "arousal": 1, "valence": -1, "interoception": 1, "dmn": 0, "social": 0, "motor": 0 }
+        },
+        {
+          "id": "practice_exploration",
+          "mode_name_en": "DMN Exploration Mode",
+          "mode_name_ja": "発散探索モード",
+          "observation": "DMN優位、時間知覚が伸長、技能の「遊び」に余地がある状態。",
+          "misreading": "「真面目に練習していない」と解釈されがちだが、",
+          "reality": "Friston (2010) とClark (2013) の予測処理の枠組みでは、生成モデルの内部サンプリング（「違う解釈を試す」動作）は、将来の予測誤差を先回りして減らす学習として定式化される。つまり、アドリブや運弓の別解の試行は、サボりではなく将来の本番精度を上げる投資。",
+          "application": "決まった曲を『別の運弓で』『違うテンポで』『違うキャラで』弾いてみる。一小節単位で解釈を複数試す。録音して後で聴き返すと、自分の既定の癖が輪郭を帯びる。『違和感を楽しむ』設定で入ると時間対効果が最大化する。",
+          "paper_ids": ["friston2010", "clark2013"],
+          "target_vector": { "arousal": 0, "valence": 1, "interoception": 0, "dmn": 2, "social": -1, "motor": 0 }
+        },
+        {
+          "id": "practice_motor_ready",
+          "mode_name_en": "Motor Threshold Low Mode",
+          "mode_name_ja": "運動立ち上がりモード",
+          "observation": "右腕が軽く、苦手箇所への接近欲求が高い。運動野の準備電位が立ち上がりやすい。",
+          "misreading": "「ただノッている」程度に扱われがちだが、",
+          "reality": "Bandura (1977) の自己効力感モデルは、短い挑戦→成功の反復が最も確実な効力感の蓄積経路であると示した。この状態は苦手箇所への最短突入コストが最小で、成功体験の密度を上げる最適ウィンドウ。飛ばすと今日得られたはずの「弾けた一回」が翌日の閾値を下げずに終わる。",
+          "application": "最初の15分を、いつも避けている一小節・一箇所に充てる。ゆっくり3回、原テンポ3回、そして一度通して終了。達成を記録する（録音でも、メモ一行でも）。残りの時間は通常メニュー。",
+          "paper_ids": ["bandura1977"],
+          "target_vector": { "arousal": 1, "valence": 1, "interoception": 0, "dmn": -1, "social": 0, "motor": 2 }
+        }
       ]
     },
     "lesson": {
       "label": "レッスン前",
-      "subtitle": "教室・契約先到着前",
+      "subtitle": "教室・契約先到着前の状態同定",
       "questions": [
-        ["今日のノリ、領域展開いけそう", "淡々モード"],
-        ["説明する気分、めっちゃある", "必要最小限"],
-        ["生徒の音、よく聴こえそう", "いつも通り"],
-        ["体力、満タン", "ぼちぼち"],
-        ["今日のレッスン、引き出すやつ", "教えるやつ"],
-        ["笑い、自然に出そう", "真面目モード"],
-        ["弓持って見せる", "口頭多め"],
-        ["新しい話、する", "いつもの話"],
-        ["生徒の集中、引きやすそう", "いつも通り"],
-        ["時間、ちょうどよく回りそう", "押すかも"],
-        ["今日の声、出やすい", "ちょいガラガラ"],
-        ["提案、思いつきそう", "その場対応"],
-        ["質問、出やすい雰囲気", "淡々"],
-        ["今日の指導、即興系", "構成系"],
-        ["終わった後、爽快", "ちょい疲労"]
+        { "prompt": "生徒の音をこれから聴くイメージは、どちらに近い？", "choices": [
+          { "label": "細部まで入ってきそう", "tags": { "interoception": 1, "social": 1 } },
+          { "label": "いつも通りの粒度", "tags": { "interoception": 0, "arousal": 0 } }
+        ]},
+        { "prompt": "今日の説明欲は、どちらに近い？", "choices": [
+          { "label": "言葉が出てきそう", "tags": { "dmn": 1, "social": 1 } },
+          { "label": "必要最小限でいい", "tags": { "dmn": -1, "motor": 1 } }
+        ]},
+        { "prompt": "弓を持って見せるのは、どちらに近い？", "choices": [
+          { "label": "実演で伝えたい", "tags": { "motor": 1, "interoception": 1 } },
+          { "label": "口頭中心", "tags": { "motor": -1, "dmn": 1 } }
+        ]},
+        { "prompt": "自分の体の準備状態は、どちらに近い？", "choices": [
+          { "label": "軽い・動ける", "tags": { "arousal": 1, "motor": 1 } },
+          { "label": "重い・セーブしたい", "tags": { "arousal": -1, "motor": -1 } }
+        ]},
+        { "prompt": "予定した内容への構えは、どちらに近い？", "choices": [
+          { "label": "筋書き通りにやりたい", "tags": { "dmn": -1, "arousal": 1 } },
+          { "label": "その場の質問に乗りたい", "tags": { "dmn": 1, "social": 1 } }
+        ]},
+        { "prompt": "今日の自分の声は、どちらに近い？", "choices": [
+          { "label": "出やすい・通る", "tags": { "valence": 1, "social": 1 } },
+          { "label": "ちょい渋い・掠れる", "tags": { "valence": 0, "motor": -1 } }
+        ]},
+        { "prompt": "生徒との距離感は、どちらに近い？", "choices": [
+          { "label": "入っていきたい", "tags": { "social": 1, "valence": 1 } },
+          { "label": "観察寄り", "tags": { "social": 0, "dmn": 1 } }
+        ]}
       ],
       "buffs": [
-        "今日のレッスン、ノリそうじゃん。生徒の音、よく聴こえるやつ",
-        "全然弾ける。いつも通りで超いける。だいぶ良くなってきた感ある",
-        "ま、自然に出るやつ。説明したいことも勝手に出てくる",
-        "今日は領域展開モード。生徒の中に入っていく日",
-        "説明、勝手に出る。ま、いい流れになる",
-        "生徒の音、よく聴こえるやつ。引き出せる日",
-        "今日のレッスン、笑い自然に出るやつ",
-        "もう超いける。体力ちゃんとある",
-        "いつも通りで全然OK。むしろいつも通りがいい",
-        "今日の声、ちゃんと出る。説明スムーズなやつ",
-        "弓持って見せる気分。今日は実演多めいけるかも",
-        "新しい話、自然に出てくるかも。期待しない",
-        "時間、ちょうどよく回るやつ",
-        "生徒の集中、引きやすい雰囲気作れる",
-        "ま、淡々と。それが今日の正解",
-        "もう全然大丈夫。準備できてる感ある",
-        "今日は引き出すモード。質問拾いまくる",
-        "生徒の音から学ぶ日。こっちも気持ちいいやつ",
-        "だいぶ良くなってる感、伝えられる日",
-        "今日のレッスン、終わった後爽快なやつになる",
-        "ま、ノリでOK。即興のほうがいい時もある",
-        "もう自然に教えられる。考えすぎない",
-        "全然できる。今日は構成バッチリ",
-        "今日、生徒に何か残せそうな日",
-        "ちょうどいい塩梅で進められる。完璧じゃなくていい"
+        {
+          "id": "lesson_mirror_window",
+          "mode_name_en": "Observational Attunement Mode",
+          "mode_name_ja": "観察同調モード",
+          "observation": "他者の音・姿勢・呼吸の微細な変化が入ってきやすい状態。前島皮質と側頭頭頂接合部の他者身体表象処理が高感度。",
+          "misreading": "「おせっかい」「見すぎ」と自己評価されがちだが、",
+          "reality": "Craig (2009) が示した前島皮質の内受容処理は、自他の身体状態を同じチャネルで扱う。あなたが今日高感度な内受容を持っているなら、その感度は生徒の身体の読みにもそのまま流用できる。Tang et al. (2015) は瞑想者で同領域の感度上昇と共感精度の改善を関連づけた。",
+          "application": "レッスン冒頭3分は、自分が話す量より『生徒の音・呼吸・構え』を観察する比率を意識的に上げる。違和感を言語化するのは、言語化ができるレベルまで観察が解像してからで間に合う。指示より前に観察。",
+          "paper_ids": ["craig2009", "tang2015"],
+          "target_vector": { "arousal": 0, "valence": 1, "interoception": 2, "dmn": 0, "social": 1, "motor": 0 }
+        },
+        {
+          "id": "lesson_verbal_peak",
+          "mode_name_en": "Verbal Fluency Peak",
+          "mode_name_ja": "言語運用ピークモード",
+          "observation": "DMN優位と社会志向の両立。言語野への資源配分が高く、説明・比喩の生成速度が上がっている。",
+          "misreading": "「喋りすぎそう」と警戒されがちだが、",
+          "reality": "Friston (2010) の枠組みでは、他者に対する説明は自分の内部モデルの外在化であり、教える側の学習効果（protégé effect）も同時に進行する。今日のような言語出力が整った状態は、単なる雄弁ではなく、自分の技能理論が再整理されるチャンス。",
+          "application": "普段より一段抽象度を上げた説明（原理論、身体の物理、弓と弦の物理）を一つ用意して出してみる。生徒の反応で通じなければ即座に具体例に下ろす。終わった後に、自分が今日うまく言えた言い回しを一行メモする。積むと指導言語の辞書になる。",
+          "paper_ids": ["friston2010", "bandura1977"],
+          "target_vector": { "arousal": 1, "valence": 1, "interoception": 0, "dmn": 1, "social": 1, "motor": 0 }
+        },
+        {
+          "id": "lesson_embodied_demo",
+          "mode_name_en": "Embodied Demonstration Mode",
+          "mode_name_ja": "身体実演モード",
+          "observation": "運動閾値低、身体実演への志向、内受容鮮明。",
+          "misreading": "「身体で見せるのは言葉の代わり」と軽く扱われがちだが、",
+          "reality": "観察による運動学習（mirror-based motor learning）は、言語指示のみの学習より、運動前野・補足運動野の活性化を直接的に引き起こす。実演は言葉の省略形ではなく、別チャネルの教授。特に脱力・重心・弓の自重のような、言語化すると情報が落ちるパラメータに対しては、実演が唯一の正確な伝達経路になる。",
+          "application": "今日は、言葉で説明しようとしてうまくいかない箇所が来たら、迷わず弓を取って見せる。『これはこう』ではなく『こうしてる時、中で何が起きてるか』を言葉で短く補う。実演7：言葉3の比率で。",
+          "paper_ids": ["brefczynski2007", "bandura1977"],
+          "target_vector": { "arousal": 1, "valence": 1, "interoception": 1, "dmn": -1, "social": 1, "motor": 2 }
+        },
+        {
+          "id": "lesson_reappraisal_coach",
+          "mode_name_en": "Reappraisal Coaching Mode",
+          "mode_name_ja": "再評価誘導モード",
+          "observation": "自分の感情価がわずかに高く、他者の緊張への耐性がある状態。",
+          "misreading": "「普通」に見えるが、",
+          "reality": "Jamieson et al. (2012), Crum et al. (2013) は、指導者が生徒の緊張を『能力不足の兆候』ではなく『体の準備が立ち上がっている兆候』に再解釈して伝えるだけで、生徒の実際のパフォーマンスが改善することを示した。あなたの今の状態は、この再評価フレームを生徒に渡せる燃料が十分にあるフェーズ。",
+          "application": "生徒が『緊張する』『手が震える』と言ったら、否定もせず励ましもせず、『それは体が音を出す準備を立ち上げてる反応だ』と事実として言語化する。Lieberman (2007) の感情ラベリング効果が同時に走り、生徒の扁桃体活動も下がる。",
+          "paper_ids": ["jamieson2012", "crum2013", "lieberman2007"],
+          "target_vector": { "arousal": 0, "valence": 1, "interoception": 1, "dmn": 0, "social": 1, "motor": 0 }
+        },
+        {
+          "id": "lesson_low_prior",
+          "mode_name_en": "Low-Precision Prior Mode",
+          "mode_name_ja": "予測柔軟モード",
+          "observation": "事前計画への固執が低く、その場の情報に応答する余地が広い状態。",
+          "misreading": "「準備不足」に見えがちだが、",
+          "reality": "Clark (2013) とFriston (2010) の能動推論では、priorの精度を下げる（柔らかくする）ことは、入力への感度を上げるという意味を持つ。教える側のpriorが固いほど、生徒の未登録の個性は見えなくなる。今日のあなたの構えは、生徒の未登録の面に出会いやすい状態。",
+          "application": "事前に立てたメニューを机に置いたまま、冒頭5分は生徒の『今日の質問』を一つ拾うところから始める。そこから逆算して今日のメニューを組み直す。準備は捨てているのではなく、生徒の入力に対して順序を入れ替える余地を持たせている。",
+          "paper_ids": ["friston2010", "clark2013"],
+          "target_vector": { "arousal": 0, "valence": 1, "interoception": 0, "dmn": 1, "social": 1, "motor": 0 }
+        }
       ]
     },
     "jkd": {
       "label": "稽古前",
-      "subtitle": "JKD稽古の前",
+      "subtitle": "武術稽古の直前の状態同定",
       "questions": [
-        ["今日の脱力、入ってるかも", "まだ硬い"],
-        ["落ちて飛ぶやつ、来てる", "普通モード"],
-        ["反応、早そう", "ゆっくり"],
-        ["受け、柔らかい", "ちょい固い"],
-        ["スパー、攻め寄り", "観察寄り"],
-        ["重心、低くいけそう", "高め"],
-        ["今日の体、軽い", "重い"],
-        ["視野、広いかも", "狭め"],
-        ["動き、滑らかそう", "カクつくかも"],
-        ["呼吸、深い", "浅い"],
-        ["パンチ、抜けそう", "止まりそう"],
-        ["ステップ、軽い", "重い"],
-        ["今日のメンタル、攻め", "受け"],
-        ["動画撮りたい", "撮らない"],
-        ["発見ありそうな日", "復習の日"]
+        { "prompt": "今日の体の重心は、どちらに近い？", "choices": [
+          { "label": "低く落ちる感じ", "tags": { "interoception": 1, "motor": 1 } },
+          { "label": "高め・ふわつく", "tags": { "interoception": -1, "arousal": 1 } }
+        ]},
+        { "prompt": "呼吸は、どちらに近い？", "choices": [
+          { "label": "深く入る", "tags": { "valence": 1, "arousal": -1, "interoception": 1 } },
+          { "label": "浅く速い", "tags": { "arousal": 1, "motor": 1 } }
+        ]},
+        { "prompt": "今日の反応速度の予感は、どちらに近い？", "choices": [
+          { "label": "速そう・シャープ", "tags": { "arousal": 1, "motor": 1 } },
+          { "label": "ゆっくり・観察寄り", "tags": { "arousal": -1, "interoception": 1 } }
+        ]},
+        { "prompt": "視野の広さは、どちらに近い？", "choices": [
+          { "label": "広い・周辺視まで入る", "tags": { "valence": 1, "interoception": 1 } },
+          { "label": "狭い・一点に絞れる", "tags": { "arousal": 1, "motor": 1 } }
+        ]},
+        { "prompt": "受けへの構えは、どちらに近い？", "choices": [
+          { "label": "柔らかく待てる", "tags": { "valence": 1, "arousal": -1, "dmn": 1 } },
+          { "label": "先に動きたい", "tags": { "arousal": 1, "motor": 1 } }
+        ]},
+        { "prompt": "今日の体の軽さは、どちらに近い？", "choices": [
+          { "label": "軽い・浮ける", "tags": { "motor": 1, "valence": 1 } },
+          { "label": "重い・粘る", "tags": { "motor": -1, "arousal": -1 } }
+        ]},
+        { "prompt": "稽古の目的感は、どちらに近い？", "choices": [
+          { "label": "発見したい・新しいことを試す", "tags": { "dmn": 2, "valence": 1 } },
+          { "label": "復習したい・型を確認する", "tags": { "dmn": -2, "interoception": 1, "arousal": -1 } }
+        ]}
       ],
       "buffs": [
-        "今日の脱力、入ってる。落ちて飛ぶやつ来てる",
-        "全然動ける。受けも柔らかいかも。ま、ノリでいい",
-        "反応、早めの日。観察しながら攻めるやつ",
-        "重心、低くいける。動きスムーズなやつ",
-        "今日の体、軽い。勝手に動くタイプ",
-        "呼吸、深く入ってる。これは動けるやつ",
-        "視野、広い。よく見える日",
-        "パンチ、抜けるかも。素直に振るだけ",
-        "ステップ、軽くて自然。ノレる日",
-        "今日のスパー、観察寄りで全然OK",
-        "もう自然に動ける。考えすぎない",
-        "攻め寄りでもいける日。いい感じで出せる",
-        "全然動けてる。発見ありそうな日",
-        "動画撮ってもいい日かも。後で見直し楽しいやつ",
-        "今日の脱力、ちゃんと来てる。完璧じゃなくていい",
-        "ま、淡々と稽古。それが今日の正解",
-        "受けも攻めも、自然に出る。考えない",
-        "今日は復習の日でも全然OK。質が来てる",
-        "もう全然動ける。サイヤ人モード入れる",
-        "呼吸も視野も整ってる。いいスパーになる",
-        "重心、自然に落ちる日。気持ちいいやつ",
-        "今日の動き、滑らかなやつ来てる",
-        "ステップ軽くて、攻めも受けも自由",
-        "全然集中できる。1時間あっという間なやつ",
-        "今日は脱力一本でいい。それで全部つながる"
+        {
+          "id": "jkd_vagal_flow",
+          "mode_name_en": "Vagal Flow Mode",
+          "mode_name_ja": "迷走神経流動モード",
+          "observation": "深い呼吸、低い重心、柔らかい受けの構え。副交感神経系が優位でありながら運動系の準備は残っている稀なバランス。",
+          "misreading": "「気合が足りない」と誤解されがちだが、",
+          "reality": "Porges (2007) のpolyvagal理論とLehrer & Gevirtz (2014) のHRVバイオフィードバック研究は、副交感優位でありながら反応準備ができている状態（high-HRVでのタスク遂行）こそが、柔軟で正確な対人応答の基盤であることを示す。Beilock & Carr (2001) の熟練者のchoking研究も、過剰な交感興奮がむしろスキル崩壊を招くことを示している。今日のあなたは、スパーで最も『読める』状態。",
+          "application": "スパーは攻めで主導するよりも、受け・カウンター・観察寄りで組み立てる。ドリルではスローワークを長く取る。呼吸が止まりそうになったら、技を出す前に一拍吐くのを習慣化すると、この状態がセッション終わりまで維持できる。",
+          "paper_ids": ["porges2007", "lehrer2014", "beilock2001"],
+          "target_vector": { "arousal": -1, "valence": 1, "interoception": 1, "dmn": 0, "social": 0, "motor": 1 }
+        },
+        {
+          "id": "jkd_sympathetic_sharp",
+          "mode_name_en": "Sympathetic Sharp Mode",
+          "mode_name_ja": "交感神経鋭敏モード",
+          "observation": "浅く速い呼吸、高覚醒、反応速度優位。交感神経系がタスク前に立ち上がっている。",
+          "misreading": "「力みすぎ」「緊張している」と解釈されがちだが、",
+          "reality": "Mather & Sutherland (2011) のarousal-biased competitionでは、高覚醒は優先度の高い刺激への知覚・記憶資源を強く傾斜させる。反応系ドリル・短時間の集中スパーでは、この傾斜がパフォーマンスを押し上げる。ただしArnsten (2015) の示すとおり閾値を超えると前頭前野制御が崩れるため、タスクの幅を狭く取ることが条件。",
+          "application": "今日は反応ドリル（トリガー入れ→最短パス）を長めに取り、受け中心のフリースパーは短めにする。ラウンド間に息を長めに吐く（吸1:吐2）を入れると、覚醒を降ろしつつ感度は残せる。",
+          "paper_ids": ["mather2011", "arnsten2015"],
+          "target_vector": { "arousal": 2, "valence": 0, "interoception": 0, "dmn": -1, "social": 0, "motor": 1 }
+        },
+        {
+          "id": "jkd_interoceptive_read",
+          "mode_name_en": "Interoceptive Read Mode",
+          "mode_name_ja": "内受容読み込みモード",
+          "observation": "重心と呼吸の鮮明さ、身体の各部位の位置覚の高精度。",
+          "misreading": "「繊細すぎる」と片付けられがちだが、",
+          "reality": "Craig (2009) の前島皮質の内受容処理は、スキル運動の微細制御と直結する。Tang et al. (2015) は瞑想熟練者で、身体各部の脱力・力配分・タイミングの精度が非熟練者から明確に分離することを示した。今日のあなたは、その日の稽古で『自分の軸がどこにあるか』を最も正確に観測できる状態。",
+          "application": "スパーよりも、独り稽古・型・ソロドリルに時間を多めに取る。動きを遅くして、各フェーズでの脱力・重心移動・呼吸の位置を逐一観察する。今日書き込んだ身体感覚は、今週中は再現率が高い。",
+          "paper_ids": ["craig2009", "tang2015"],
+          "target_vector": { "arousal": 0, "valence": 1, "interoception": 2, "dmn": 0, "social": 0, "motor": 1 }
+        },
+        {
+          "id": "jkd_predictive_read",
+          "mode_name_en": "Predictive Read-Ahead Mode",
+          "mode_name_ja": "予測先読みモード",
+          "observation": "DMN優位、視野広め、観察寄りの構え。生成モデルの前向き予測が走っている。",
+          "misreading": "「集中していない」と誤解されがちだが、",
+          "reality": "Clark (2013) とFriston (2010) の能動推論は、知覚を『前向き予測と入力の差分計算』として定式化する。視野が広く構えが柔らかい今日の状態は、相手の初動に対する予測誤差を細かく拾える状態であり、反射の速さより『読みの精度』が勝る局面で優位。",
+          "application": "今日のスパーは、相手のフェイント・重心移動の初動を読む系のドリルに絞る。自分から仕掛けるより、相手の『次』を言語化してから応じる。速い攻防を長く取らず、低速で情報量の多いラウンドを組む。",
+          "paper_ids": ["friston2010", "clark2013"],
+          "target_vector": { "arousal": -1, "valence": 1, "interoception": 1, "dmn": 2, "social": 0, "motor": 0 }
+        },
+        {
+          "id": "jkd_consolidation_repeat",
+          "mode_name_en": "Type Consolidation Mode",
+          "mode_name_ja": "型統合モード",
+          "observation": "低〜中覚醒、反復・型・復習への志向、内受容の安定。",
+          "misreading": "「今日は発見がなさそう」と片付けられがちだが、",
+          "reality": "Rasch & Born (2013) とMcGaugh (2000) の記憶固定化研究は、新規学習の『定着』が静かな反復フェーズで起きることを示した。新しい技を入れる日と、型を身体に定着させる日は、同じくらい必要。今日の稽古は、この数週間に入れた技の『着地』を担当する日。",
+          "application": "新しい技の試行は最小限に留め、既習の基本（ステップ、受け、基本の打撃フォーム）を低速で反復する。動画を撮って後で見る。新規を入れなかった罪悪感は、この論文群で明示的に打ち消しておくと、帰宅後のレビューが締まる。",
+          "paper_ids": ["rasch2013", "mcgaugh2000"],
+          "target_vector": { "arousal": -1, "valence": 0, "interoception": 1, "dmn": -2, "social": 0, "motor": 0 }
+        }
       ]
     },
     "sleep": {
       "label": "寝る前",
-      "subtitle": "風呂後・布団に入る直前",
+      "subtitle": "入眠直前の状態同定",
       "questions": [
-        ["今日、だいぶ良かった", "ぼちぼち"],
-        ["お腹、満ちてる", "ちょい空いてる"],
-        ["頭の中、静か", "まだ動いてる"],
-        ["明日、楽しみ寄り", "淡々と"],
-        ["体、もう寝モード", "もうちょい起きてたい"],
-        ["肩、ほぐれてる", "ちょい張ってる"],
-        ["目、もう閉じたい", "まだ起きてる"],
-        ["今日のレッスン、納得", "心残り"],
-        ["練習、まあ満足", "もうちょいやりたかった"],
-        ["ななちゃんとの会話、満ちてる", "普通"],
-        ["飲み物、お茶もう一杯", "いらない"],
-        ["体温、ちょうどいい", "ちょい暑い"],
-        ["風呂、ちゃんと入った感ある", "ちょいバタバタ"],
-        ["明日の予定、把握してる", "だいたい"],
-        ["今夜のスコア、80いきそう", "普通"]
+        { "prompt": "今、頭の中は、どちらに近い？", "choices": [
+          { "label": "静かに近い", "tags": { "dmn": -1, "arousal": -1, "valence": 1 } },
+          { "label": "まだ走っている", "tags": { "dmn": 1, "arousal": 1 } }
+        ]},
+        { "prompt": "体の感覚は、どちらに近い？", "choices": [
+          { "label": "緩んでいる・沈んでいる", "tags": { "interoception": 1, "motor": -1 } },
+          { "label": "まだ張りがある・温まっていない", "tags": { "interoception": -1, "motor": 1 } }
+        ]},
+        { "prompt": "今日一日への感じ方は、どちらに近い？", "choices": [
+          { "label": "できたことが見える", "tags": { "valence": 1, "social": 1 } },
+          { "label": "やり残しが気になる", "tags": { "valence": -1, "dmn": 1 } }
+        ]},
+        { "prompt": "明日への構えは、どちらに近い？", "choices": [
+          { "label": "楽しみ・整っている", "tags": { "valence": 1, "arousal": 0 } },
+          { "label": "ざわつく・段取りが気になる", "tags": { "valence": -1, "arousal": 1, "dmn": 1 } }
+        ]},
+        { "prompt": "ななちゃんや近い人との時間の感じ方は、どちらに近い？", "choices": [
+          { "label": "満ちている", "tags": { "social": 2, "valence": 1 } },
+          { "label": "もう少し欲しい／言い残しがある", "tags": { "social": -1, "dmn": 1 } }
+        ]},
+        { "prompt": "呼吸は、どちらに近い？", "choices": [
+          { "label": "ゆっくり長い", "tags": { "arousal": -1, "valence": 1, "interoception": 1 } },
+          { "label": "まだ短め", "tags": { "arousal": 1, "motor": 1 } }
+        ]},
+        { "prompt": "今夜の睡眠への予感は、どちらに近い？", "choices": [
+          { "label": "深く寝れそう", "tags": { "valence": 1, "arousal": -1 } },
+          { "label": "少し浅いかも", "tags": { "valence": 0, "arousal": 1 } }
+        ]},
+        { "prompt": "今日の身体的疲労度の実感は、どちらに近い？", "choices": [
+          { "label": "かなり残っている", "tags": { "motor": -2, "interoception": -1, "valence": -1 } },
+          { "label": "それほどでもない", "tags": { "motor": 0, "valence": 1 } }
+        ]}
       ],
       "buffs": [
-        "今日、だいぶ良かったじゃん。ま、寝れば全部リカバリー",
-        "もう体寝モード。明日も起きた瞬間にいけるやつ",
-        "頭、静か。今夜はスコア80いきそう",
-        "全然いい一日だった。明日もちょうどいい塩梅でいく",
-        "今日の練習、ま、満足。明日も全然いける",
-        "お腹ちょうどよく満ちてる。今夜はぐっすりやつ",
-        "肩ほぐれてる。すぐ寝れるやつ",
-        "明日、楽しみ寄り。今夜は静かに寝る",
-        "今日のレッスン、納得できる感じだった。明日も自然にいける",
-        "もう全然OK。今日できなかったことは明日やればいい",
-        "今夜のスコア、絶対いいやつ来る",
-        "目もう閉じたい。これは深い眠りに入るやつ",
-        "ななちゃんとの時間、満ちてる。いい一日",
-        "もう寝モード完璧。明日6時起きでも全然いける",
-        "全然いい一日だった。8割で十分、それが今日の正解",
-        "今夜はリカバリーモード。体勝手に治してくれる",
-        "頭の中、静か。明日のことも自然に進む",
-        "もう体預けるだけ。寝るのうまいやつ",
-        "今日できたこと、ちゃんとあった。それで十分",
-        "明日のことは明日の自分が考える。今は寝る",
-        "ま、全然いい一日だった。明日もちょうどいい感じで",
-        "今夜のお風呂、効いてる。すぐ寝れるやつ",
-        "もう全部OK。リカバリー成功",
-        "明日、自然に起きれるやつ。スコア期待できる",
-        "今日も全部含めてちょうどいい塩梅だった。いい一日"
+        {
+          "id": "sleep_vagal_settled",
+          "mode_name_en": "Vagal Settled Mode",
+          "mode_name_ja": "副交感着地モード",
+          "observation": "低覚醒、深い呼吸、内受容の静かな安定、入眠準備が整っている状態。",
+          "misreading": "「普通」に見えるが、",
+          "reality": "Porges (2007) のpolyvagal理論とThayer & Lane (2000) のneurovisceral integration modelは、副交感神経系優位で入眠前の数十分を過ごすことが、夜間のHRV回復と深睡眠の時間を決定的に押し上げることを示す。Xie et al. (2013) が示したグリンパティック系のクリアランスは、この深睡眠で最大化される。",
+          "application": "ここから刺激を追加しない。スマホを開かない、新しい話題を考えない。共鳴呼吸（4.5bpm、吸5秒・吐8秒）を3〜5分だけ挟むと、この状態のまま寝床に入れる。明日のタスクがよぎったら一行メモに出して頭を閉じる。",
+          "paper_ids": ["porges2007", "thayer2000", "xie2013"],
+          "target_vector": { "arousal": -2, "valence": 1, "interoception": 1, "dmn": -1, "social": 0, "motor": -1 }
+        },
+        {
+          "id": "sleep_satisfaction_lock",
+          "mode_name_en": "Satisfaction Lock Mode",
+          "mode_name_ja": "満足ラッチモード",
+          "observation": "今日への肯定的評価が優位で、感情価が正方向に安定している状態。",
+          "misreading": "「偶然調子がよかっただけ」と流されがちだが、",
+          "reality": "Kirsch (1985) のresponse expectancy理論では、過去の達成の明示的な再確認が、翌日以降の期待値を上書きし、実際のパフォーマンスに影響することを示す。Bandura (1977) の自己効力感モデルでも、『達成経験』は最も強い効力感源とされる。今日できたことを言語化して閉じると、明日の立ち上がりの閾値が下がる。",
+          "application": "寝る前に『今日できたこと』を声に出すか紙に3つ書く。大きさは問わない（起きれた／生徒に一つ良い説明ができた／弓が軽かった、で十分）。書き出したら閉じて寝る。Kaptchuk (2010) のopen-label placeboと同じで、これが『演出』であることを知っていても効く。",
+          "paper_ids": ["kirsch1985", "bandura1977", "kaptchuk2010"],
+          "target_vector": { "arousal": -1, "valence": 2, "interoception": 0, "dmn": 0, "social": 1, "motor": 0 }
+        },
+        {
+          "id": "sleep_rumination_release",
+          "mode_name_en": "Rumination Release Mode",
+          "mode_name_ja": "反芻解放モード",
+          "observation": "頭の中の言語活動が残り、DMNが優位。明日の段取りや今日のやり残しが意識に上がっている。",
+          "misreading": "「考えすぎ」「眠れない」と自己評価して悪循環に入りがちだが、",
+          "reality": "Lieberman et al. (2007) のaffect labeling研究は、感情や懸念を言語化すると扁桃体活動が下がり、前頭前野の制御が立ち上がることを示した。頭の中を走っている言葉を『書き出す』だけで、DMNの反芻ループが閉じる。Rasch & Born (2013) は、寝る前の軽い再活性化が記憶固定化に正の効果を持つ一方、明確な書き出しで閉じた懸念は持ち越されないことを示唆する。",
+          "application": "寝る前5分、紙かメモに『今、頭で走っている言葉』を箇条書きで全部出す。解決は不要、列挙だけでいい。最後に『これは明日の自分が処理する』と一行書いて閉じる。これで反芻の再生産が止まる。",
+          "paper_ids": ["lieberman2007", "rasch2013"],
+          "target_vector": { "arousal": 1, "valence": -1, "interoception": 0, "dmn": 2, "social": 0, "motor": 0 }
+        },
+        {
+          "id": "sleep_recovery_debt",
+          "mode_name_en": "Recovery Debt Mode",
+          "mode_name_ja": "回復需要モード",
+          "observation": "運動閾値高、内受容鈍化、身体的疲労優位。回復資源の需要が高い状態。",
+          "misreading": "「疲れた一日」とネガティブに総括されがちだが、",
+          "reality": "Xie et al. (2013) の研究は、深睡眠中に脳のグリンパティック系が覚醒時の1.6倍の速度で代謝産物（β-アミロイドなど）を排出することを示した。Rasch & Born (2013) とMcGaugh (2000) は、記憶の整理と長期記憶化もこのフェーズで完了する。つまり疲労は、眠ることそのものが最大の投資になるサインであり、今夜は特に歩留まりが大きい。",
+          "application": "いつもより15分早く寝床に入る。スマホを枕元から外す。明日の起床時刻を信用して、リカバリー系の行動（軽いストレッチ、温かい飲み物）を1つだけ挟んで寝る。追加の生産はしない。",
+          "paper_ids": ["xie2013", "rasch2013", "mcgaugh2000"],
+          "target_vector": { "arousal": -1, "valence": -1, "interoception": -1, "dmn": 0, "social": 0, "motor": -2 }
+        },
+        {
+          "id": "sleep_affiliation_rich",
+          "mode_name_en": "Affiliation Rich Mode",
+          "mode_name_ja": "関係充足モード",
+          "observation": "社会志向が満ち、感情価が安定して正方向、副交感神経系寄り。",
+          "misreading": "単に『いい日だった』と流されがちだが、",
+          "reality": "Porges (2007) のpolyvagal理論では、安全な他者との接続が迷走神経の腹側ブランチを活性化させ、その効果は入眠後の自律神経回復に持ち越される。Kirsch (1985) のresponse expectancyと合わせて言えば、『今日は関係が良かった』と明示的に確認することは、明日の社会的期待の基準線を書き換える。",
+          "application": "ななちゃんや今日関わった誰かとの良かった瞬間を一つ思い出し、口に出すか書き出す。長さは一文でいい。Lieberman (2007) の言語化効果でさらに着地が深まる。そのまま寝る。",
+          "paper_ids": ["porges2007", "kirsch1985", "lieberman2007"],
+          "target_vector": { "arousal": -1, "valence": 1, "interoception": 0, "dmn": 0, "social": 2, "motor": 0 }
+        }
       ]
     }
   }
